@@ -1,0 +1,339 @@
+/*!========== common use css ==========*/
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "jost", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container,
+.header,
+.header-top {
+  max-width: 1440px;
+}
+
+.main-container {
+  margin-top: 13rem;
+}
+
+.section {
+  padding: 2rem 5rem;
+}
+
+a {
+  color: var(--black);
+}
+
+/*!========== website theme ==========*/
+
+:root {
+  --mainColor1: #0453d3;
+  --mainColor2: #0f87de;
+  --bg-gradient: linear-gradient(
+    to right,
+    var(--mainColor1),
+    var(--mainColor2)
+  );
+  --bg-gradient2: linear-gradient(to right, rgb(3, 3, 3), rgb(70, 70, 70));
+  --btn-bg: #2492e1;
+  --textColor: ;
+  --black: #000;
+  --white: #fff;
+}
+
+/*!========== ReuseAble Code ==========*/
+
+/*todo===== all flex properties =====*/
+
+.d-flex {
+  display: flex;
+}
+
+/*?=== justify content properties ===*/
+
+.jc-center {
+  justify-content: center;
+}
+.jc-start {
+  justify-content: start;
+}
+.jc-end {
+  justify-content: end;
+}
+.jc-between {
+  justify-content: space-between;
+}
+.jc-evenly {
+  justify-content: space-evenly;
+}
+.jc-around {
+  justify-content: space-around;
+}
+
+/*?=== aling items properties ===*/
+
+.al-center {
+  align-items: center;
+}
+.al-start {
+  align-items: start;
+}
+.al-end {
+  align-items: end;
+}
+
+/*?=== flex directions properties ===*/
+
+.dir-col {
+  flex-direction: column;
+}
+.dir-col-reverse {
+  flex-direction: column-reverse;
+}
+
+/*todo===== all grid properties =====*/
+
+.grid {
+  display: grid;
+}
+
+/*?=== template columns properties ===*/
+
+.grid-two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-four-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*?=== justify items properties ===*/
+
+.ji-center {
+  justify-items: center;
+}
+.ji-start {
+  justify-items: start;
+}
+.ji-end {
+  justify-items: end;
+}
+
+/*todo===== all txt properties =====*/
+
+.txt-up {
+  text-transform: uppercase;
+}
+.txt-low {
+  text-transform: lowercase;
+}
+.txt-cap {
+  text-transform: capitalize;
+}
+.txt-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*todo===== all position properties =====*/
+
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  content: "";
+  position: absolute;
+}
+.p-fixed {
+  content: "";
+  position: fixed;
+}
+
+/*todo===== all other properties =====*/
+
+.d-none {
+  display: none;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.m-auto {
+  margin-inline: auto;
+}
+.pointer {
+  cursor: pointer;
+}
+.border-none {
+  border: none;
+}
+.radius-50per {
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.transition-3ms {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.btn {
+  height: fit-content;
+  background-color: var(--btn-bg);
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+.btn,
+.header-top > p,
+.hero-features-container {
+  color: var(--white);
+}
+.btn,
+.header-top,
+.hero-btns,
+.hero-feature {
+  gap: 1rem;
+}
+/*!=============== header section ===============*/
+
+.header-container {
+  top: 0%;
+  left: 0%;
+  font-size: 1.6rem;
+  background-color: var(--white);
+}
+
+.header-top,
+.hero-features-container {
+  background: var(--bg-gradient2);
+}
+.header-top {
+  height: 5rem;
+}
+.header-top > p > a {
+  color: var(--btn-bg);
+  margin-left: 1rem;
+}
+.header {
+  padding-bottom: 0;
+  height: 7rem;
+}
+
+.logo {
+  height: 100%;
+}
+
+.navbar {
+  gap: 2rem;
+}
+
+.navbar > a:hover {
+  color: var(--btn-bg);
+}
+
+/*!=============== hero section ===============*/
+.hero-container {
+  background: var(--bg-gradient);
+}
+
+.hero-content {
+  color: var(--white);
+  width: 90%;
+}
+
+.hero-content .hero-heading {
+  font-size: 6rem;
+}
+
+.hero-content .hero-para {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.hero-btns .hero-btn {
+  background-color: var(--white);
+  color: var(--btn-bg);
+  font-size: 1.7rem;
+}
+
+/*!=============== hero features section ===============*/
+
+.hero-feature > span {
+  font-size: 1.7rem;
+}
+
+.hero-features-img {
+  background-image: url("./images/icon-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.hero-features-img > img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/*!========== drop up css ==========*/
+.drop-up {
+  bottom: 3%;
+  right: 4%;
+}
+.drop-up a i {
+  font-size: 2.5rem;
+  width: 5rem;
+  height: 5rem;
+  color: var(--black);
+  animation-name: border-animation;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2.5s;
+  background: var(--bg-gradient);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  color: var(--white);
+}
+@keyframes border-animation {
+  0%,
+  100% {
+    border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+    -webkit-border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+    -moz-border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+    -ms-border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+    -o-border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+  }
+  50% {
+    border-radius: 30%70%70%30%/30%30%70%70%;
+    -webkit-border-radius: 30%70%70%30%/30%30%70%70%;
+    -moz-border-radius: 30%70%70%30%/30%30%70%70%;
+    -ms-border-radius: 30%70%70%30%/30%30%70%70%;
+    -o-border-radius: 30%70%70%30%/30%30%70%70%;
+    -webkit-border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+}
