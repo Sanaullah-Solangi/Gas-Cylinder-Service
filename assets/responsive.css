@@ -129,6 +129,9 @@
   .header-container {
     height: 14rem;
   }
+  .show .navbar {
+    height: calc(100vh - 14rem);
+  }
 
   .header {
     padding-bottom: 0.5rem;
@@ -193,5 +196,9 @@
 
   .main-container {
     margin-top: 16rem;
+  }
+
+  .show > .navbar {
+    height: calc(100vh - 16rem);
   }
 }
