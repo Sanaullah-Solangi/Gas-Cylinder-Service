@@ -301,6 +301,41 @@ a {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+/*!=============== services section ===============*/
+
+.services-container {
+  gap: 6rem;
+}
+
+.service-box {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: var(--white);
+  height: auto;
+  gap: 3rem;
+  padding: 4rem 5rem;
+}
+.service-box-one {
+  background-image: url("./images/Rectangle-bg.png");
+}
+
+.service-box-two {
+  background-image: url("./images/Rectangle-bg-2.png");
+}
+
+.service-box .service-img {
+  width: 10rem;
+  padding-top: 1rem;
+  height: 100%;
+}
+
+.service-box .service-heading {
+  font-size: 3rem;
+}
+.service-box .service-para {
+  font-size: 2rem;
+}
 /*!========== drop up css ==========*/
 .drop-up {
   bottom: 3%;
