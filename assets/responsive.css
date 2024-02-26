@@ -199,6 +199,6 @@
   }
 
   .show > .navbar {
-    height: calc(100vh - 16rem);
+    height: calc(90vh - 16rem);
   }
 }
