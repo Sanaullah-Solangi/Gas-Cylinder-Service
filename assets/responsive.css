@@ -200,5 +200,6 @@
 
   .show > .navbar {
     height: calc(90vh - 16rem);
+    background-color: red;
   }
 }
