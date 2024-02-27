@@ -81,6 +81,17 @@
   .service-img img {
     height: 100%;
   }
+
+  .about-content {
+    padding: 3rem 2rem;
+  }
+
+  .about-content .about-heading {
+    font-size: 3.5rem;
+  }
+  .about-content .about-para {
+    font-size: 1.7rem;
+  }
 }
 
 @media (width <=730px) {
@@ -208,6 +219,17 @@
   .service-img {
     width: auto;
     height: auto;
+  }
+
+  .about-content {
+    padding: 2rem 1rem;
+  }
+
+  .about-content .about-heading {
+    font-size: 2.5rem;
+  }
+  .about-content .about-para {
+    margin-bottom: 1.5rem;
   }
 }
 

@@ -209,7 +209,8 @@ a {
 }
 .btn,
 .header-top > p,
-.hero-features-container {
+.hero-features-container,
+.about-content {
   color: var(--white);
 }
 .btn,
@@ -256,7 +257,8 @@ a {
 }
 
 /*!=============== hero section ===============*/
-.hero-container {
+.hero-container,
+.about-content {
   background: var(--bg-gradient);
 }
 
@@ -269,7 +271,8 @@ a {
   font-size: 6rem;
 }
 
-.hero-content .hero-para {
+.hero-content .hero-para,
+.about-content .about-para {
   font-size: 2.5rem;
   margin-bottom: 3rem;
 }
@@ -336,6 +339,18 @@ a {
 .service-box .service-para {
   font-size: 2rem;
 }
+
+/*!=============== about section ===============*/
+.about-content {
+  padding: 5rem 4rem;
+}
+
+.about-content .about-heading {
+  font-size: 4rem;
+}
+.about-content .about-para {
+  font-size: 2rem;
+}
 /*!========== drop up css ==========*/
 .drop-up {
   bottom: 3%;
@@ -372,4 +387,3 @@ a {
     -webkit-border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   }
 }
-  
