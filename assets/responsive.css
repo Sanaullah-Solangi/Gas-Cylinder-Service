@@ -223,6 +223,12 @@
   }
 }
 
+@media (width <=605px) {
+  .footer-para {
+    width: 75%;
+  }
+}
+
 @media (width <=520px) {
   .hero-features-container,
   .hero-feature {
@@ -304,6 +310,10 @@
 
   .my-cylinder-content-wrapper {
     padding-bottom: 0%;
+  }
+
+  .footer-para {
+    width: 100%;
   }
 
   .drop-up a i {

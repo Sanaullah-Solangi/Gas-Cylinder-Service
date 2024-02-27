@@ -213,7 +213,8 @@ a {
 .hero-features-container,
 .about-content,
 .available-container,
-.location-content {
+.location-content,
+.copyright {
   color: var(--white);
 }
 .btn,
@@ -484,9 +485,33 @@ a {
   background-image: url(./images/Rectangle-bg-3.png);
 }
 
-.deliver-container .available-content > .available-heading{
+.deliver-container .available-content > .available-heading {
   width: 60%;
 }
+
+/*!=============== footer section ===============*/
+
+.footer-main-content {
+  gap: 2rem;
+}
+
+.footer-main-content .footer-para,
+.footer-main-content .navbar a,
+.copyright {
+  font-size: 1.7rem;
+}
+
+.footer-para {
+  width: 55%;
+}
+
+.copyright {
+  background-color: var(--black);
+  width: 100%;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
 /*!========== drop up css ==========*/
 .drop-up {
   bottom: 3%;
