@@ -253,11 +253,11 @@ a {
   height: 100%;
 }
 
-.navbar {
+.navbar,
+.footer-navbar {
   gap: 2rem;
 }
-
-.navbar > a:hover,
+:is(.navbar, .footer-navbar) > a:hover,
 .my-cylinder-tag > span,
 .my-cylinder-price {
   color: var(--btn-bg);
@@ -408,6 +408,7 @@ a {
 
 .available-container {
   margin-block: 5rem;
+  padding-block: 10rem;
   background-image: url("./images/builders.png");
 }
 
@@ -497,7 +498,8 @@ a {
 
 .footer-main-content .footer-para,
 .footer-main-content .navbar a,
-.copyright {
+.copyright,
+.footer-navbar a {
   font-size: 1.7rem;
 }
 

@@ -132,6 +132,10 @@
     padding: 3rem 2rem;
   }
 
+  .available-container {
+    padding-block: 5rem;
+  }
+
   .about-content .about-heading,
   .common-heading {
     font-size: 3.5rem;
@@ -261,6 +265,13 @@
   .location-item h3 + p {
     font-size: 1.5rem;
   }
+
+  .footer-navbar {
+    gap: 1rem;
+  }
+  .footer-navbar a {
+    font-size: 1.4rem;
+  }
 }
 
 @media (width <=470px) {
@@ -346,6 +357,9 @@
     padding: 2rem 1rem;
   }
 
+  .available-container {
+    padding-block: 5rem;
+  }
   .my-cylinder-content-wrapper {
     padding-bottom: 0%;
   }
@@ -375,6 +389,12 @@
   .available-content > .my-cylinder-btns > .my-cylinder-btn {
     font-size: 1.5rem;
     padding-inline: 2rem;
+  }
+}
+
+@media (width <=390px) {
+  .footer-navbar a {
+    font-size: 1rem;
   }
 }
 
