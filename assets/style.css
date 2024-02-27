@@ -252,7 +252,9 @@ a {
   gap: 2rem;
 }
 
-.navbar > a:hover {
+.navbar > a:hover,
+.my-cylinder-tag > span,
+.my-cylinder-price {
   color: var(--btn-bg);
 }
 
@@ -341,16 +343,56 @@ a {
 }
 
 /*!=============== about section ===============*/
-.about-content {
+.about-content,
+.my-cylinder-content-wrapper {
   padding: 5rem 4rem;
 }
 
 .about-content .about-heading {
   font-size: 4rem;
 }
-.about-content .about-para {
+.about-content .about-para,
+.my-cylinder-para,
+.my-cylinder-tag {
   font-size: 2rem;
 }
+
+/*!=============== my cylinder section ===============*/
+.common-heading {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.my-cylinder-container {
+  width: 85%;
+}
+
+.my-cylinder-content-wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.my-cylinder-price {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.my-cylinder-btns {
+  gap: 2rem;
+}
+
+.my-cylinder-btns > .my-cylinder-btn:nth-child(2) {
+  background-color: var(--black);
+}
+
+.my-cylinder-img {
+  height: 40rem;
+}
+
 /*!========== drop up css ==========*/
 .drop-up {
   bottom: 3%;
