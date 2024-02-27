@@ -210,7 +210,8 @@ a {
 .btn,
 .header-top > p,
 .hero-features-container,
-.about-content {
+.about-content,
+.available-container {
   color: var(--white);
 }
 .btn,
@@ -313,9 +314,13 @@ a {
   gap: 6rem;
 }
 
-.service-box {
+.service-box,
+.available-container {
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.service-box {
   color: var(--white);
   height: auto;
   gap: 3rem;
@@ -344,7 +349,8 @@ a {
 
 /*!=============== about section ===============*/
 .about-content,
-.my-cylinder-content-wrapper {
+.my-cylinder-content-wrapper,
+.available-container {
   padding: 5rem 4rem;
 }
 
@@ -393,6 +399,21 @@ a {
   height: 40rem;
 }
 
+/*!=============== available section ===============*/
+
+.available-container {
+  margin-top: 5rem;
+  background-image: url("./images/builders.png");
+}
+
+.available-content > .available-heading {
+  font-size: 5rem;
+}
+
+.available-content {
+  width: 50%;
+  gap: 2rem;
+}
 /*!========== drop up css ==========*/
 .drop-up {
   bottom: 3%;
