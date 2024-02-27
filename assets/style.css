@@ -414,6 +414,12 @@ a {
   width: 50%;
   gap: 2rem;
 }
+
+/*!=============== my cylinder second section ===============*/
+.my-cylinder-second {
+  gap: 4rem;
+  padding-block: 10rem;
+}
 /*!========== drop up css ==========*/
 .drop-up {
   bottom: 3%;
