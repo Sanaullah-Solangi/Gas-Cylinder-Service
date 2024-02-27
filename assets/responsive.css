@@ -255,6 +255,10 @@
   .header-btn {
     display: none;
   }
+
+  .my-cylinder-img {
+    height: 70%;
+  }
 }
 
 @media (width <=350px) {
