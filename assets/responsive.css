@@ -75,6 +75,11 @@
   }
   .services-container {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .service-img img {
+    height: 100%;
   }
 }
 
@@ -111,6 +116,10 @@
     justify-content: center;
     text-align: center;
     width: 100%;
+  }
+
+  .service-box {
+    gap: 1rem;
   }
 }
 
@@ -187,7 +196,8 @@
 @media (width <=450px) {
   .service-box {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
+    padding-inline: 0.5rem;
     text-align: center;
   }
 
@@ -216,12 +226,20 @@
     font-size: 2.5rem;
   }
   .hero-content .hero-para {
-    font-size: 1.5rem;
     margin-top: 1rem;
+  }
+
+  .hero-content .hero-para,
+  .service-box .service-para {
+    font-size: 1.5rem;
   }
 
   .hero-btns {
     flex-direction: column;
+  }
+
+  .service-box .service-heading {
+    font-size: 2.2rem;
   }
 }
 
